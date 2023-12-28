@@ -1,0 +1,22 @@
+h3
+{
+    font-size: xx-large !important;
+}
+
+.btn-success:hover
+{
+    background-color:tomato
+}
+
+canvas
+{
+    animation-name: oi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oi
+{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
